@@ -1,12 +1,12 @@
 # Singapore Resale Flat Price Prediction
 
-/n
+<br>
 
 # Overview
 This project aims to develop a system that predicts the resale prices of flats in Singapore. This can be helpful for both potential buyers and sellers by providing an estimate of a flat's worth.
 
 # Dataset
-The project gathers historical data on past resale flat transactions from the Singapore Housing and Development Board (HDB). The data is available from the year 1990 to till date. The features included in the dataset are:
+The project gathers historical data on resale flat transactions from the Singapore Housing and Development Board (HDB). The data is available from the year 1990 to till date. The features included in the dataset are:
 
 | Feature | Description |
 | :--- | :--- |
@@ -24,7 +24,7 @@ The project gathers historical data on past resale flat transactions from the Si
 
 # Data Preparation
 - *Shape*: The data consists of 925057 records and 10 features.
-- *Missing Value*: 'remaining_lease' contained missing values (NAs). To ensure data integrity, we employed a suitable technique to fill in these missing values.
+- *Missing Value*: 'remaining_lease' contained missing values (NAs). To ensure data integrity, employed a suitable technique to fill in these missing values.
 - *Encode*: The categorical features are encoded using the map technique. This improves the model's ability to understand and utilize these features.
 - *Duplicates*: Duplicates in the dataset have been dropped to avoid redundancy.
 - *Skew*: The data exhibited moderate skewness, potentially caused by outliers. To address this, we implemented a strategy to remove outliers, leading to a more normalized dataset.
